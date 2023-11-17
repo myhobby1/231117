@@ -1,0 +1,28 @@
+#include <stdio.h>
+
+int add(int a, int b)
+{
+  int c;
+  c=a+b;
+  return c;
+}
+int main(void)
+{
+  int a, b;
+  int result;
+
+  a=10;
+  b=20;
+
+  result=add(a,b);
+  printf("result=%d\n",result);
+
+result=add(a+5,b+10);
+printf("result=%d\n, result);
+
+printf("result=%d\n",add(10,20));
+
+return0;
+}
+
+  
